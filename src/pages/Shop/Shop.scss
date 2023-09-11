@@ -1,0 +1,109 @@
+.Hero__shop {
+    text-align: center;
+    width: 100vw;
+    padding: 121px 0 99px 0;
+    background: url('../../assets/HeroShopBgi.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    h2 {
+        color: #000;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-bottom: 2px;
+    }
+
+    div {
+
+        ul {
+            padding-left: 663px;
+            display: flex;
+            gap: 6px;
+
+            :nth-child(1) {
+                font-weight: 500;
+
+            }
+
+            a {
+                color: #000;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: normal;
+            }
+        }
+    }
+
+
+
+}
+
+.Shop__filter {
+    background: #F9F1E7;
+
+    .shop__filterBG {
+        padding: 35px 98px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .shop__list1 {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+
+            li {
+                cursor: pointer;
+            }
+        }
+
+        .shop__list2 {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+
+            input {
+                text-align: center;
+                width: 55px;
+                height: 55px;
+                border: none;
+            }
+        }
+    }
+}
+
+.achievement {
+    background: #FAF3EA;
+    padding: 100px 53px;
+
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        li {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            h3 {
+                color: #242424;
+                font-size: 25px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 150%;
+            }
+
+            p {
+                color: var(--color-gray-3, #898989);
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 150%;
+            }
+        }
+    }
+}

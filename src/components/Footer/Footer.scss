@@ -1,0 +1,121 @@
+.Footer {
+    max-width: 1236px;
+    margin: 0 auto;
+    padding: 48px 0;
+
+    .footer__top {
+        display: flex;
+        align-items: center;
+        gap: 338px;
+        padding-bottom: 50px;
+
+        h4 {
+            cursor: pointer;
+            color: #000;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+        ul {
+            display: flex;
+            align-items: center;
+            gap: 172px;
+
+            li {
+                color: #9F9F9F;
+                font-size: 16px;
+                font-style: normal;
+                cursor: pointer;
+                font-weight: 500;
+                line-height: normal;
+            }
+        }
+    }
+
+    .footer__center {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 83px;
+
+        p {
+            max-width: 285px;
+            color: #9F9F9F;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        .footer__list1 {
+            li {
+                color: #000;
+                padding-bottom: 46px;
+                font-size: 16px;
+                font-style: normal;
+                cursor: pointer;
+                font-weight: 500;
+                line-height: normal;
+            }
+
+            :nth-child(4) {
+                padding-bottom: 0;
+            }
+
+        }
+
+        .footer__list2 {
+            li {
+                color: #000;
+                font-size: 16px;
+                cursor: pointer;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                padding-bottom: 46px;
+
+            }
+
+            :nth-child(3) {
+                padding-bottom: 0;
+            }
+        }
+
+        .footer__list3 {
+            display: flex;
+            gap: 28px;
+
+            li {
+                color: #9F9F9F;
+                font-family: Poppins;
+                cursor: pointer;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+
+            :nth-child(2) {
+                color: #000;
+                font-family: Poppins;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+        }
+    }
+
+    .footer__bottom {
+        span {
+            color: #000;
+            cursor: pointer;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            padding-bottom: 38px;
+        }
+    }
+}
